@@ -1,3 +1,5 @@
+//Time: O(nlogn)
+//Space:O(1)
 import java.util.*;
 
 public class Main {
@@ -7,8 +9,8 @@ public class Main {
 
         while (T-- > 0) {
             int n = sc.nextInt();
-
-            if (n == 0) {
+            
+            if (n == 0) {  //Edge Case
                 System.out.println(0);
                 continue;
             }
